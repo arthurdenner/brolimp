@@ -1,24 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package simulador.olimpiadas;
-
-/**
- *
- * @author Denner
- */
 public class Handebol extends Esporte {
+
+    /*public Handebol(int id, String nome) {
+        super(id, nome);
+    }*/
 
     @Override
     int jogar(String equipe1, String equipe2) {
         int ptsEquipe1, ptsEquipe2;
         double pontos;
         
-        pontos = Math.random() * 7;
+        pontos = Math.random() * 5;
         ptsEquipe1 = (int)pontos;
-        pontos = Math.random() * 7;
+        pontos = Math.random() * 5;
         ptsEquipe2 = (int)pontos;
         System.out.println(ptsEquipe1 + "," + ptsEquipe2);
         
