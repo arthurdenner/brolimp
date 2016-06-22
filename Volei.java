@@ -1,21 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package simulador.olimpiadas;
+public class Volei extends Esporte {
 
-/**
- *
- * @author Denner
- */
-public class Tenis extends Esporte {
+    /*public Volei(int id, String nome) {
+        super(id, nome);
+    }*/
 
     @Override
     int jogar(String equipe1, String equipe2) {
         int ptsEquipe1, ptsEquipe2 = 0;
         double pontos;
-        
         pontos = Math.random() * 4;
         ptsEquipe1 = (int)pontos;
         if(ptsEquipe1 < 3) {
